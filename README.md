@@ -1,0 +1,1 @@
+just an repo containing collection of organized files and resources used for learning SQL databases.
