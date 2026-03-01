@@ -1,5 +1,10 @@
 # **SELECT & FROM**
 
+<img src="./select&from.png" width="600">
+
+<br>
+<br>
+
 ## **SELECT Statement in SQL**
 
 The **`SELECT` statement** is the primary SQL command used to **retrieve data from a database**. It is part of the **Data Query Language (DQL)**. `SELECT` allows you to specify exactly which columns and rows you want to see from one or more tables.
@@ -19,6 +24,11 @@ FROM table_name;
 SELECT first_name, last_name
 FROM students;
 ```
+
+<img src="./select&from1.png" width="600">
+
+
+
 
 This retrieves the `first_name` and `last_name` of all students from the `students` table.
 
@@ -81,3 +91,5 @@ LIMIT 5;
 This fetches only the first 5 rows.
 
 ---
+
+

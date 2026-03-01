@@ -59,3 +59,34 @@ Now the table has **2 rows**.
 we have successfully createed an database
 
 
+In SQL, **comments** are used to add notes or explanations in your code. They are **ignored by the database** when executing queries.
+
+1. **Single-line comment using `--`**
+
+```sql
+-- This is a single-line comment
+SELECT * FROM students;
+```
+
+2. **Single-line comment using `#`** (works in MySQL)
+
+```sql
+# This is also a comment
+SELECT * FROM students;
+```
+
+3. **Multi-line comment using `/* ... */`**
+
+```sql
+/*
+This is a 
+multi-line comment
+*/
+SELECT * FROM students;
+```
+
+So basically: `--` or `#` for one line, `/* ... */` for multiple lines.
+
+
+
+
