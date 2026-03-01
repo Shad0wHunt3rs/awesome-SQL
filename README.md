@@ -9,3 +9,4 @@ just an repo containing collection of organized files and resources used for lea
 - [Querying data](./Querying_data/Readme.md)
     - [SELECT & FROM](./Querying_data/SELECT&FROM/Readme.md)
     - [WHERE](./Querying_data/WHERE/Readme.md)
+    - [ORDER BY](./Querying_data/ORDER%20BY/Readme.md)
