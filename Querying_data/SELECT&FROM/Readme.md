@@ -1,10 +1,5 @@
 # **SELECT & FROM**
 
-<img src="./select&from.png" width="600">
-
-<br>
-<br>
-
 ## **SELECT Statement in SQL**
 
 The **`SELECT` statement** is the primary SQL command used to **retrieve data from a database**. It is part of the **Data Query Language (DQL)**. `SELECT` allows you to specify exactly which columns and rows you want to see from one or more tables.
@@ -44,6 +39,9 @@ FROM students;
 ```
 
 This fetches **every column** of the table.
+
+<img src="./select&from.png" width="600">
+
 
 ---
 
