@@ -12,6 +12,20 @@ GROUP BY column1;
 * `column1` → the column you want to group by
 * `aggregate_function(column2)` → a calculation like `COUNT`, `SUM`, `AVG`, etc.
 
+<br>
+<br>
+
+
+<img src="./GROUP BY.png" width="600">
+
+
+here we have grouped the orignal data by using the country 
+
+
+<br>
+<br>
+
+
 ---
 
 **Example**
@@ -44,29 +58,14 @@ GROUP BY grade;
 * Rows are **grouped by `grade`**
 * `COUNT(*)` counts the number of students in each group
 
----
 
-## **Using GROUP BY with SUM or AVG**
+>[!NOTE]
+> if you donot use the `AS(ALIAS)` here the column as COUNT(*) but if you use ALIAS it will be `total_students`
 
-**Query: Average marks per grade**
-
-```sql
-SELECT grade, AVG(marks) AS avg_marks
-FROM students
-GROUP BY grade;
-```
-
-**Result:**
-
-| grade | avg_marks |
-| ----- | --------- |
-| A     | 87.67     |
-| B     | 87.50     |
-
-* Groups rows by `grade`
-* Calculates **average marks** for each group
+<img src="./GROUP BY1.png" width="400">
 
 ---
+
 
 ## **Notes About GROUP BY**
 

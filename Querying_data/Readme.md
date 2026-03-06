@@ -32,8 +32,8 @@ Common SQL clauses include:
 [click](./SELECT&FROM/Readme.md) here to learn about SELECT & FROM
 
 
-* **WHERE** – Filters records based on a given condition.
-* **GROUP BY** – Groups rows that have the same values in specified columns.
+* **[WHERE](./WHERE/Readme.md)** – Filters records based on a given condition.
+* **[GROUP BY](./GROUP%20BY/Readme.md)** – Groups rows that have the same values in specified columns.
 * **HAVING** – Filters grouped data (used with GROUP BY).
 * **ORDER BY** – Sorts the result in ascending or descending order.
 * **LIMIT** (or TOP in some systems) – Restricts the number of rows returned.
