@@ -32,10 +32,10 @@ Common SQL clauses include:
 [click](./SELECT&FROM/Readme.md) here to learn about SELECT & FROM
 
 
+* **[ORDER BY](./ORDER%20BY/Readme.md)** – Sorts the result in ascending or descending order.
 * **[WHERE](./WHERE/Readme.md)** – Filters records based on a given condition.
 * **[GROUP BY](./GROUP%20BY/Readme.md)** – Groups rows that have the same values in specified columns.
-* **HAVING** – Filters grouped data (used with GROUP BY).
-* **ORDER BY** – Sorts the result in ascending or descending order.
+* **[HAVING](./HAVING/Readme.md)** – Filters grouped data (used with GROUP BY).
 * **LIMIT** (or TOP in some systems) – Restricts the number of rows returned.
 
 Each clause has a specific position in the query and must follow the correct order. Together, clauses control how the database processes and returns the data.
