@@ -14,3 +14,4 @@ just an repo containing collection of organized files and resources used for lea
     - [HAVING](./Querying_data/HAVING/Readme.md)
     - [DISTINCT](./Querying_data/DISTINCT/Readme.md)
     - [TOP/LIMIT](./Querying_data/TOP-or-LIMIT/Readme.md)
+    - [execution order vs coding order](./Querying_data/execution%20vs%20coding_order/Readme.md)

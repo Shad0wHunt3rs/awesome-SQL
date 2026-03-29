@@ -36,9 +36,15 @@ Common SQL clauses include:
 * **[WHERE](./WHERE/Readme.md)** – Filters records based on a given condition.
 * **[GROUP BY](./GROUP%20BY/Readme.md)** – Groups rows that have the same values in specified columns.
 * **[HAVING](./HAVING/Readme.md)** – Filters grouped data (used with GROUP BY).
-* **LIMIT** (or TOP in some systems) – Restricts the number of rows returned.
+* **[LIMIT/TOP](./TOP-or-LIMIT/Readme.md)**  – Restricts the number of rows returned.
 
 Each clause has a specific position in the query and must follow the correct order. Together, clauses control how the database processes and returns the data.
 
 
 <img src="./clauses.png" width="600">
+
+<br>
+<br>
+
+
+now lets learn  about the [execution order vs coding order](./execution%20vs%20coding_order/Readme.md)
