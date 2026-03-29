@@ -74,6 +74,11 @@ now here we can see that the type of email has changed from `VARCHAR(50)` to `IN
 
 > Some databases use `ALTER COLUMN` instead of `MODIFY`.
 
+**What happens to the data?**
+
+- Data is preserved if it fits the new data type and constraints.
+- If existing data cannot fit the new type or constraint, the command fails.
+
 ---
 
 ### **Drop a Column**
