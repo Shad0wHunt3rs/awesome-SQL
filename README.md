@@ -13,3 +13,4 @@ just an repo containing collection of organized files and resources used for lea
     - [GROUP BY](./Querying_data/GROUP%20BY/Readme.md)
     - [HAVING](./Querying_data/HAVING/Readme.md)
     - [DISTINCT](./Querying_data/DISTINCT/Readme.md)
+    - [TOP/LIMIT](./Querying_data/TOP-or-LIMIT/Readme.md)
