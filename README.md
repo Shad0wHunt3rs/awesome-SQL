@@ -19,3 +19,4 @@ just an repo containing collection of organized files and resources used for lea
     - [static values](./Querying_data/static%20values/Readme.md)
 - [Data Definition Language(DDL)](./DDL/Readme.md)
     - [CREATE](./DDL/CREATE/Readme.md)
+    - [ALTER](./DDL/ALTER/Readme.md)

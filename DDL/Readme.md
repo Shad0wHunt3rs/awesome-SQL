@@ -21,7 +21,7 @@ DDL commands are **auto-committed**, meaning once executed, the change is perman
 # **Main DDL Commands**
 
 - **[CREATE](./CREATE/Readme.md)**
-- **ALTER**
+- **[ALTER](./ALTER/Readme.md)**
 - **DROP**
 - **TRUNCATE**
 - **RENAME**
