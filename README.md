@@ -17,3 +17,5 @@ just an repo containing collection of organized files and resources used for lea
     - [execution order vs coding order](./Querying_data/execution%20vs%20coding_order/Readme.md)
     - [simple Multi-queries](./Querying_data/simple-Multi-queries/Readme.md)
     - [static values](./Querying_data/static%20values/Readme.md)
+- [Data Definition Language(DDL)](./DDL/Readme.md)
+    - [CREATE](./DDL/CREATE/Readme.md)
