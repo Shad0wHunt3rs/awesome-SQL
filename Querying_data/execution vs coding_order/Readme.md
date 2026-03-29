@@ -37,7 +37,7 @@ this is the order in which the query is written and expected to run by the progr
 
 <br>
 
-if we look aat this we can see that the coding order is completely different from the execution order 
+if we look at this we can see that the coding order is completely different from the execution order 
 
 so once we learn how sql execute query you can easily build correct queries
 
