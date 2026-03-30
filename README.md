@@ -21,3 +21,4 @@ just an repo containing collection of organized files and resources used for lea
     - [CREATE](./DDL/CREATE/Readme.md)
     - [ALTER](./DDL/ALTER/Readme.md)
     - [DROP](./DDL/DROP/Readme.md)
+    - [TRUNCATE](./DDL/TRUNCATE/Readme.md)
