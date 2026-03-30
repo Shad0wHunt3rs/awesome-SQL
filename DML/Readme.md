@@ -15,7 +15,7 @@ It allows you to **insert, update, delete, and retrieve rows**.
 
 - **[INSERT](./INSERT/Readme.md)**
 - **[UPDATE](./UPDATE/Readme.md)**
-- **[DELETE]()**
+- **[DELETE](./DELETE/Readme.md)**
 - **[SELECT]()**
 
 
