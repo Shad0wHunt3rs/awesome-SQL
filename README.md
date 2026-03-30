@@ -24,5 +24,6 @@ just an repo containing collection of organized files and resources used for lea
     - [TRUNCATE](./DDL/TRUNCATE/Readme.md)
     - [RENAME](./DDL/RENAME/Readme.md)
 - [Data Manipulation Language(DML)](./DML/Readme.md) 
-    - [INSERT](./DML/INSERT/Readme.md) 
+    - [INSERT](./DML/INSERT/Readme.md)
+    - [UPDATE](./DML/UPDATE/Readme.md)
     <!-- - [Transactions and DML]() -->
