@@ -20,3 +20,4 @@ just an repo containing collection of organized files and resources used for lea
 - [Data Definition Language(DDL)](./DDL/Readme.md)
     - [CREATE](./DDL/CREATE/Readme.md)
     - [ALTER](./DDL/ALTER/Readme.md)
+    - [DROP](./DDL/DROP/Readme.md)
