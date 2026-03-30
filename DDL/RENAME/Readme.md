@@ -1,4 +1,4 @@
-#**RENAME in SQL?**
+# **RENAME in SQ**
 
 RENAME is a **DDL operation** used to change the **name of a database object** (mainly a table).
 
