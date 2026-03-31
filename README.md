@@ -29,3 +29,5 @@ just an repo containing collection of organized files and resources used for lea
     - [DELETE](./DML/DELETE/Readme.md)
     <!-- - [Transactions and DML]() -->
 - [Filtering Data](./Filtering%20Data/Readme.md)
+    - [Joins](./Combining%20Data/Joins/Readme.md)
+    - [Set Operators](./Combining%20Data/Set%20Operators/Readme.md)
