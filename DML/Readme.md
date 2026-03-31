@@ -16,7 +16,7 @@ It allows you to **insert, update, delete, and retrieve rows**.
 - **[INSERT](./INSERT/Readme.md)**
 - **[UPDATE](./UPDATE/Readme.md)**
 - **[DELETE](./DELETE/Readme.md)**
-- **[SELECT]()**
+- **[SELECT](../Querying_data/SELECT&FROM/Readme.md)**
 
 
 ## **Key Features of DML**

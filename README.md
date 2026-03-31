@@ -28,3 +28,4 @@ just an repo containing collection of organized files and resources used for lea
     - [UPDATE](./DML/UPDATE/Readme.md)
     - [DELETE](./DML/DELETE/Readme.md)
     <!-- - [Transactions and DML]() -->
+- [Filtering Data](./Filtering%20Data/Readme.md)
