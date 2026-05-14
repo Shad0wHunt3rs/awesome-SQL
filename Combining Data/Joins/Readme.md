@@ -47,6 +47,6 @@ below is the table which shows the types of join
 ## Basic
 
 - [No-join](./no-join/Readme.md)
-- [Inner-join](./no-join/Readme.md)
+- [Inner-join](./Inner-join/Readme.md)
 
 ## Advance
