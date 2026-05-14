@@ -101,3 +101,13 @@ ON Students.student_id = Marks.student_id;
 ```
 
 ---
+
+
+## Example 
+
+here is an simple inner join example
+
+<img src="./2.png" width="700">
+
+
+
