@@ -53,4 +53,10 @@ below is the table which shows the types of join
 - [Full-join](./Full-join/Readme.md)
 
 
+<img src="./7.png" width="400">
+
+
 ## Advance
+
+- [Left-Anti-join](./Left-Anti-join/Readme.md)
+- [Right-Anti-join](./Right-Anti-join/Readme.md)
