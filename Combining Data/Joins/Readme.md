@@ -61,4 +61,5 @@ below is the table which shows the types of join
 - [Left-Anti-join](./Left-Anti-join/Readme.md)
 - [Right-Anti-join](./Right-Anti-join/Readme.md)
 - [Full-Anti-join](./Full-Anti-join/Readme.md)
+- [Cross-join](./Cross-join/Readme.md)
  
