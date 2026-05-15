@@ -50,5 +50,7 @@ below is the table which shows the types of join
 - [Inner-join](./Inner-join/Readme.md)
 - [Left-join](./Left-join/Readme.md)
 - [Right-join](./Right-join/Readme.md)
+- [Full-join](./Full-join/Readme.md)
+
 
 ## Advance
