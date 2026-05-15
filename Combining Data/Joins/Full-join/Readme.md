@@ -45,6 +45,40 @@ UNION
 RIGHT JOIN
 ```
 
+i am using mysql which does not support full-join lets see an example
+
+
+<img src="./3.png" width="500">
+
+<br>
+
+<img src="./4.png" width="500">
+
+but when i do an full join i do not get the full result
+
+<img src="./5.png" width="500">
+
+so the solution is to use Union which we will learn in future
+
+```sql
+SELECT *
+FROM customers
+LEFT JOIN orders
+ON customers.id = orders.customer_id
+
+UNION
+
+SELECT *
+FROM customers
+RIGHT JOIN orders
+ON customers.id = orders.customer_id;
+```
+
+<img src="./6.png" width="500">
+
+
+
+
 ---
 
 ## Example
