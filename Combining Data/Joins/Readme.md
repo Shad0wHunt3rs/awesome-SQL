@@ -48,6 +48,6 @@ below is the table which shows the types of join
 
 - [No-join](./no-join/Readme.md)
 - [Inner-join](./Inner-join/Readme.md)
-- [Inner-join](./Inner-join/Readme.md)
+- [Left-join](./Left-join/Readme.md)
 
 ## Advance
