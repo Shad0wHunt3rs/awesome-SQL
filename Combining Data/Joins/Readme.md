@@ -62,4 +62,19 @@ below is the table which shows the types of join
 - [Right-Anti-join](./Right-Anti-join/Readme.md)
 - [Full-Anti-join](./Full-Anti-join/Readme.md)
 - [Cross-join](./Cross-join/Readme.md)
+
+
+<br>
+<br>
+
+<img src="./8.png" width="500">
+
+
+<br>
+
+
+- [Multi-table-join](./Multi-table-join/Readme.md)
+
+
+
  
