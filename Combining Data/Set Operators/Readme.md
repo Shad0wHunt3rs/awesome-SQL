@@ -24,3 +24,10 @@ The main SQL set operators are:
 
 
 
+---
+
+## Summary
+
+<img src="./3.png" width="500">
+
+
