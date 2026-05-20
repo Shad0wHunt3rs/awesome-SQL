@@ -1,6 +1,6 @@
 # INNER JOIN
 
-An **INNER JOIN** is used to combine rows from two tables **only when there is a matching value in both tables**.
+An **INNER JOIN** is a SQL operation that returns only the rows from two tables where the specified join condition evaluates to true for both tables.
 
 It returns the **common records** between tables.
 
