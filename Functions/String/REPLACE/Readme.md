@@ -148,5 +148,4 @@ FROM customers;
 * So this query safely handles NULL values and performs replacement together
 
 
-
 ---

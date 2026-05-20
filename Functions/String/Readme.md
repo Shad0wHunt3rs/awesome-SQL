@@ -14,5 +14,6 @@
     - [UPPER & LOWER](./UPPER&LOWER/Readme.md)
     - [TRIM](./TRIM/Readme.md)
     - [REPLACE](./REPLACE/Readme.md)
-
+- calculation
+    - [LENGTH](./LENGTH/Readme.md)
 
