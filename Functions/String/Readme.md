@@ -9,5 +9,6 @@
 
 - [CONCAT](./CONCAT/Readme.md)
 - [UPPER & LOWER](./UPPER&LOWER/Readme.md)
+- [TRIM](./TRIM/Readme.md)
 
 
