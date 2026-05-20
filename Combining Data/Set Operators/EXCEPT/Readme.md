@@ -68,18 +68,16 @@ here how it works
 
 
 ```sql
-SELECT 
-    c.firstname, c.lastname
-FROM
-    salesdb.customers AS c
-WHERE
-    NOT EXISTS( SELECT 
-            1
-        FROM
-            salesdb.employees AS e
-        WHERE
-            c.firstname = e.firstname
-                AND c.lastname = e.lastname);
+SELECT DISTINCT
+    e.firstname,
+    e.lastname
+FROM salesdb.employees e
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM salesdb.customers c
+    WHERE e.firstname <=> c.firstname
+      AND e.lastname <=> c.lastname
+);
 ```
 
 “If no matching row exists in the subquery, show the row.”
@@ -93,47 +91,31 @@ EXISTS      → found
 NOT EXISTS  → not found
 ```
 
+`DISTINCT` removes duplicates from the final output rows produced by that SELECT statement.
 
-we can also solve this problem by using `NOT IN`
-
-look similar, but they work differently internally.
-
-
-```sql
-SELECT 
-    firstname,
-    lastname
-FROM salesdb.customers
-WHERE (firstname, lastname) NOT IN (
-    SELECT firstname, lastname
-    FROM salesdb.employees
-);
-```
+Also, `<=>` here is very important because if you do not use it, rows containing `NULL` values will not be matched correctly, since `NULL = NULL` is not TRUE in SQL.\
 
 
-but there is some thing wrong with it as if the table contains `NULL` then NOT IN may return no rows unexpectedly.
+`<=>` in MySQL is called the NULL-safe equality operator.
 
+It works like `=`, but it can also correctly compare NULL values.
 
-heres the output of both 
-
-**NOT EXISTS**
+if we don't use `<=>` and use `=` instead we will get the following result which is incorrect
 
 <img src="./3.png" width="400">
 
-**NOT IN**
+if we use `<=>` we would get the following result 
 
-<img src="./4.png" width="400">
-
-<br>
-<br>
+<img src="./3.png" width="400">
 
 
-the reason behind this is that `NOT IN` checks internally that when it check for `NULL` it does know if it is NOT true or false. so it becomes unknown, so the row is NOT shown.
+---
 
-In SQL: NULL is not a normal value
+## Example
 
-It means: unknown / missing value
 
-So comparisons with NULL do not behave normally.
+<img src="./5.png" width="700">
 
-so use `NOT EXISTS` here in this
+>[!NOTE]
+> the order of tables always matter
+
