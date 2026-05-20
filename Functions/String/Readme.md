@@ -16,4 +16,6 @@
     - [REPLACE](./REPLACE/Readme.md)
 - calculation
     - [LENGTH](./LENGTH/Readme.md)
+- String Extraction
+    - [LEFT & RIGHT](./LEFT&RIGHT/Readme.md) 
 
