@@ -106,7 +106,7 @@ if we don't use `<=>` and use `=` instead we will get the following result which
 
 if we use `<=>` we would get the following result 
 
-<img src="./3.png" width="400">
+<img src="./4.png" width="400">
 
 
 ---
