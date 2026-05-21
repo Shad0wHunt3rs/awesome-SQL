@@ -21,6 +21,7 @@ In SQL, **functions** are built-in operations that take input values, perform a 
 <br>
 
 - [String](./String/Readme.md)
+- [Numeric](./Numeric/Readme.md)
 
 
 
