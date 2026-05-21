@@ -3,17 +3,17 @@
 Numeric functions are functions used to perform mathematical operations on numbers.
 
 
-# Common Numeric Functions
+## Common Numeric Functions
 
-| Function               | Purpose                  |
-| ---------------------- | ------------------------ |
-| [ABS](./ABS/Readme.md) | Returns absolute value   |
-| [ROUND]                | Rounds a number          |
-| [CEIL]() / `CEILING()` | Rounds up                |
-| [FLOOR]()              | Rounds down              |
-| [MOD]()                | Returns remainder        |
-| [POWER]()              | Raises number to a power |
-| [SQRT]()               | Returns square root      |
-| [RAND]()               | Generates random number  |
+| Function                               | Purpose                  |
+| -------------------------------------- | ------------------------ |
+| [ABS](./ABS/Readme.md)                 | Returns absolute value   |
+| [ROUND](./ROUND/Readme.md)             | Rounds a number          |
+| [CEIL](./CEIL/Readme.md) / `CEILING()` | Rounds up                |
+| [FLOOR](./FLOOR/Readme.md)             | Rounds down              |
+| [MOD](./MOD/Readme.md)                 | Returns remainder        |
+| [POWER](./POWER/Readme.md)             | Raises number to a power |
+| [SQRT](./SQRT/Readme.md)               | Returns square root      |
+| [RAND](./RAND/Readme.md)               | Generates random number  |
 
 ---
