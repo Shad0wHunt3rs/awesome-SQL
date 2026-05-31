@@ -85,13 +85,13 @@ Other functions like `CURRENT_TIMESTAMP()` are standard and aim to give a consis
 
 ## Other Useful Functions
 
-| Function           | Description                               |
-| ------------------ | ----------------------------------------- |
-| `EXTRACT()`        | Extracts part of date/time (SQL standard) |
-| `STR_TO_DATE()`    | Converts string to date                   |
-| `TO_DAYS()`        | Converts date to number of days           |
-| `FROM_DAYS()`      | Converts days number back to date         |
-| `UNIX_TIMESTAMP()` | Converts date to Unix time                |
-| `FROM_UNIXTIME()`  | Converts Unix time to readable date       |
+| Function                               | Description                               |
+| -------------------------------------- | ----------------------------------------- |
+| [EXTRACT](./EXTRACT/Readme.md)         | Extracts part of date/time (SQL standard) |
+| [STR_TO_DATE](./STR_TO_DATE/Readme.md) | Converts string to date                   |
+| `TO_DAYS()`                            | Converts date to number of days           |
+| `FROM_DAYS()`                          | Converts days number back to date         |
+| `UNIX_TIMESTAMP()`                     | Converts date to Unix time                |
+| `FROM_UNIXTIME()`                      | Converts Unix time to readable date       |
 
 ---
