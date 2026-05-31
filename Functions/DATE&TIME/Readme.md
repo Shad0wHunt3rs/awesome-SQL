@@ -67,19 +67,23 @@ Other functions like `CURRENT_TIMESTAMP()` are standard and aim to give a consis
 
 ## Date Difference
 
-| Function                         | Description                            |
-| -------------------------------- | -------------------------------------- |
-| [DATEDIFF](./DATEDIFF/Readme.md) | Difference between two dates (in days) |
-| [TIMEDIFF](./TIMEDIFF/Readme.md) | Difference between two time values     |
+| Function                         | Description                                 |
+| -------------------------------- | ------------------------------------------- |
+| [DATEDIFF](./DATEDIFF/Readme.md) | Difference between two dates (in days)      |
+| [TIMEDIFF](./TIMEDIFF/Readme.md) | Difference between two time values          |
+| [CONVERT](./TIMEDIFF/Readme.md)  | changes the data type to another data type  |
+| [CAST](./CAST/Readme.md)         | explicitly convert one data type to another |
+
+
 
 ---
 
 ## Formatting Functions
 
-| Function                                | Description                     |
-| --------------------------------------- | ------------------------------- |
-| [DATE_FORMAT](./DATE_FORMAT/Readme.md)` | Formats date into custom format |
-| [TIME_FORMAT](./TIME_FORMAT/Readme.md)  | Formats time into custom format |
+| Function                               | Description                     |
+| -------------------------------------- | ------------------------------- |
+| [DATE_FORMAT](./DATE_FORMAT/Readme.md) | Formats date into custom format |
+| [TIME_FORMAT](./TIME_FORMAT/Readme.md) | Formats time into custom format |
 
 ---
 
