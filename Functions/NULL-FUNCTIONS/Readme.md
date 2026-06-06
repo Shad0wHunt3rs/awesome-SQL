@@ -462,3 +462,77 @@ WHERE commission IS NOT NULL;
 | IS NULL     | Find NULL values     | All        |
 | IS NOT NULL | Find non-NULL values | All        |
 
+
+---
+
+<br>
+<br>
+
+joins with 
+
+In joins, `NULL` needs special attention because:
+
+```sql
+NULL = NULL
+```
+
+is **not TRUE**. It evaluates to **UNKNOWN**.
+
+**Example**
+
+Table A:
+
+| id   | name |
+| ---- | ---- |
+| 1    | Ali  |
+| NULL | Sara |
+
+Table B:
+
+| id   | city    |
+| ---- | ------- |
+| 1    | Lahore  |
+| NULL | Karachi |
+
+```sql
+SELECT *
+FROM A
+JOIN B ON A.id = B.id;
+```
+
+Result:
+
+| id  | name | city   |
+| --- | ---- | ------ |
+| 1   | Ali  | Lahore |
+
+The rows with `NULL` do **not** match.
+
+---
+
+**What to do?**
+
+1. Ignore NULLs (most common)
+
+Just use the normal join:
+
+```sql
+ON A.id = B.id
+```
+
+2. Match NULLs explicitly
+
+```sql
+ON A.id = B.id
+OR (A.id IS NULL AND B.id IS NULL)
+```
+
+3. Use a NULL replacement value
+
+```sql
+ON COALESCE(A.id, 0) = COALESCE(B.id, 0)
+```
+
+Only do this if `0` (or another value) cannot occur as a real ID.
+
+---
