@@ -20,8 +20,18 @@ In SQL, **functions** are built-in operations that take input values, perform a 
 
 <br>
 
+
+### Single-row functions
+
 - [String](./String/Readme.md)
 - [Numeric](./Numeric/Readme.md)
 - [DATE & TIME](./DATE&TIME/Readme.md)
 - [NULL FUNCTIONS](./NULL-FUNCTIONS/Readme.md)
 - [CASE Statement](./CASE%20Statement/Readme.md)
+
+
+### Multi-row functions
+
+- [Aggregate function](./Aggregate%20function/Readme.md)
+- [Window Function](./Window%20Function/Readme.md)
+
