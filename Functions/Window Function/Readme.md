@@ -31,6 +31,7 @@ SQL window functions perform calculations across a set of table rows that are re
 <br>
 
 
+
 ## Syntax
 
 Now lets talk about syntax of windows function it is generally written as 
@@ -60,8 +61,23 @@ In SQL, the `OVER` clause allows you to calculate aggregate values (like sums or
 >[!NOTE]
 > frame clause is meaningful only when SQL knows the order of rows. so frame clause needs ORDER BY to work
 
+we already have talked about aggregation functions
+
+- [Ranking Window Functions](./Ranking%20Window%20Functions/Readme.md)
+
+- [Value Window Functions](./Value%20Window%20Functions/Readme.md)
 
 
+<br>
+<br>
+
+
+## 4X-Rules of Window Functions
+
+- Window Functions can only be used in `SELECT` and `ORDER BY` clauses
+- Nesting Window Functions is not allowed
+- Window Functions are executed after `WHERE` clause
+- Window Functions can only be used with `GROUP BY` clause in the same query if the same columns are used
 
 
 
