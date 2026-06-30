@@ -13,6 +13,10 @@ These are called **Value (Analytic) Window Functions** in SQL. They are used to 
 4. `LAST_VALUE()`
 5. `NTH_VALUE()`
 
+
+<img src="./1.png" width="700">
+
+
 ---
 
 ## LEAD()

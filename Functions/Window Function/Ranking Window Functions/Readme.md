@@ -11,6 +11,10 @@ Ranking Window Functions are SQL window functions that assign a rank or sequence
 5. **PERCENT_RANK()**
 6. **NTILE(n)**
 
+<br>
+
+<img src="./1.png" widht="600">
+
 
 ---
 
@@ -484,12 +488,4 @@ The earlier buckets receive one extra row when the rows cannot be divided evenly
 
 ## Complete Comparison
 
-| Function         | Duplicate Values                      | Gaps in Rank      | First Value | Last Value                | Main Purpose                                                              |
-| ---------------- | ------------------------------------- | ----------------- | ----------- | ------------------------- | ------------------------------------------------------------------------- |
-| `ROW_NUMBER()`   | No                                    | No                | 1           | N                         | Unique sequence for every row                                             |
-| `RANK()`         | Yes                                   | Yes               | 1           | Depends on ties           | Competition-style ranking                                                 |
-| `DENSE_RANK()`   | Yes                                   | No                | 1           | Number of distinct values | Ranking without gaps                                                      |
-| `CUME_DIST()`    | Same values get the same distribution | N/A               | 1/N         | 1                         | Cumulative distribution (fraction of rows at or before the current value) |
-| `PERCENT_RANK()` | Same values get the same percentage   | Based on `RANK()` | 0           | 1                         | Relative rank between 0 and 1                                             |
-| `NTILE(n)`       | N/A                                   | N/A               | 1           | n                         | Divide rows into approximately equal-sized buckets                        |
-
+<img src="./2.png" widht="600">
