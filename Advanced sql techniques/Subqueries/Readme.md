@@ -67,4 +67,4 @@ here are the types and categories of Subqueries that we will discuss
 
 - [Result types](./Result%20types/Readme.md)
 - [location(clauses)](./location-clauses/Readme.md)
-- []()
+- [Dependency](./Dependency/Readme.md)

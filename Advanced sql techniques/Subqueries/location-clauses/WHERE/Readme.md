@@ -24,25 +24,24 @@ The **operator** can be:
 
 * Comparison Operators (`=`, `>`, `<`, `>=`, `<=`, `<>`)
 
-    <img src="./2.png" width="500">
     <img src="./1.png" width="600">
 
 
 <br>
 <br>
 
-
-
 * Logical Operators (`IN`, `ANY`, `ALL`, `EXISTS`)
 
 
 ---
 
-# 1. Using Comparison Operators
+## 1. Using Comparison Operators
 
 Comparison operators are used when the subquery returns a **single value (Scalar Subquery)**.
 
-## Example: Find Employees Earning More Than the Average Salary
+<img src="./2.png" width="500">
+
+**Example: Find Employees Earning More Than the Average Salary**
 
 **Employees**
 
@@ -52,7 +51,7 @@ Comparison operators are used when the subquery returns a **single value (Scalar
 | 2          | Sara  | 70000  |
 | 3          | Ahmed | 60000  |
 
-### Query
+**Query**
 
 ```sql
 SELECT Name, Salary
@@ -64,7 +63,7 @@ WHERE Salary >
 );
 ```
 
-### How it Works
+**How it Works**
 
 **Step 1:** The subquery executes first.
 
@@ -87,7 +86,7 @@ FROM Employees
 WHERE Salary > 60000;
 ```
 
-### Output
+**Output**
 
 | Name | Salary |
 | ---- | ------ |
@@ -95,11 +94,15 @@ WHERE Salary > 60000;
 
 ---
 
-# 2. Using `IN`
+## 2. Using `IN`
+
 
 The `IN` operator is used when the subquery returns **multiple values**. It checks whether a value exists in the list returned by the subquery.
 
-## Example: Find Employees Working in Existing Departments
+<img src="./3.png" width="600">
+
+
+**Example: Find Employees Working in Existing Departments**
 
 **Departments**
 
@@ -118,7 +121,7 @@ WHERE DepartmentID IN
 );
 ```
 
-### Output
+**Output**
 
 | Name  |
 | ----- |
@@ -128,11 +131,14 @@ WHERE DepartmentID IN
 
 ---
 
-# 3. Using `ANY`
+## 3. Using `ANY`
 
 The `ANY` operator returns **TRUE** if the comparison is true for **at least one** value returned by the subquery.
 
-## Example
+<img src="./4.png" width="600">
+
+
+**Example**
 
 ```sql
 SELECT Name, Salary
@@ -158,7 +164,7 @@ The condition becomes:
 Salary > 50000
 ```
 
-### Output
+**Output**
 
 | Name  | Salary |
 | ----- | ------ |
@@ -167,11 +173,14 @@ Salary > 50000
 
 ---
 
-# 4. Using `ALL`
+## 4. Using `ALL`
 
 The `ALL` operator returns **TRUE** only if the comparison is true for **every** value returned by the subquery.
 
-## Example
+
+<img src="./5.png" width="600">
+
+**Example**
 
 ```sql
 SELECT Name, Salary
@@ -199,7 +208,7 @@ AND
 Salary > 60000
 ```
 
-### Output
+**Output**
 
 | Name | Salary |
 | ---- | ------ |
@@ -207,11 +216,21 @@ Salary > 60000
 
 ---
 
-# 5. Using `EXISTS`
+##  5. Using `EXISTS`
+
+before learning about `EXISTS` plz learn about the [Dependency Subqueries Types](../../Dependency/Readme.md)
 
 The `EXISTS` operator checks whether the subquery returns **at least one row**. If the subquery returns one or more rows, `EXISTS` evaluates to **TRUE**.
 
-## Example
+<img src="./6.png" width="600">
+
+<br>
+
+>[!NOTE]
+> SELECT 1 simply returns the constant value 1 for each matching row. The actual value (1, *, or any constant) doesn't matter because EXISTS only checks whether any row exists, not what is selected.
+
+
+**Example**
 
 **Departments**
 
@@ -225,20 +244,24 @@ SELECT Name
 FROM Employees e
 WHERE EXISTS
 (
-    SELECT *
+    SELECT 1
     FROM Departments d
     WHERE d.DepartmentID = e.DepartmentID
 );
 ```
 
-### How it Works
+**How it Works**
 
-For each employee:
+<img src="./7.png" width="600">
 
-* If a matching department exists, the employee is included.
-* If no matching department exists, the employee is excluded.
+<br>
 
-### Output
+>[!NOTE]
+> Exists is an Correlated Subquery example
+
+<br>
+
+**Output**
 
 | Name  |
 | ----- |
@@ -248,7 +271,7 @@ For each employee:
 
 ---
 
-# Summary of Operators
+### Summary of Operators
 
 | Operator                        | Returns                               | Used For                               |
 | ------------------------------- | ------------------------------------- | -------------------------------------- |
@@ -260,7 +283,7 @@ For each employee:
 
 ---
 
-# Key Points
+### Key Points
 
 * A subquery in the **`WHERE` clause** is used to **filter rows** returned by the outer query.
 * The subquery executes **before** the outer query.
@@ -270,7 +293,7 @@ For each employee:
 
 ---
 
-# Advantages
+### Advantages
 
 * Simplifies complex filtering conditions.
 * Eliminates the need for temporary tables in many cases.
@@ -279,7 +302,7 @@ For each employee:
 
 ---
 
-# Limitation
+### Limitation
 
 The operator used in the `WHERE` clause must match the type of result returned by the subquery.
 
