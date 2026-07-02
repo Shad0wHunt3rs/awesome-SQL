@@ -2,7 +2,11 @@
 
 here are some of the Advanced sql techniques we will be discoursing 
 
-<img src="./1.png" width="600">
+<img src="./1.png" width="400">
+
+<br>
+
+<img src="./2.png" width="900">
 
 <br>
 
@@ -12,3 +16,6 @@ here are some of the Advanced sql techniques we will be discoursing
 - [CTAS Table & Temp Tables](./CTAS%20Table%20&%20Temp%20Tables/Readme.md)
 - [Stored Procedure](./Stored%20Procedure/Readme.md)
 - [Triggers](./Triggers/Readme.md)
+
+
+
